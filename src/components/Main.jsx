@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import allLanguages from '../languages.js'
 import LanguageButton from './LanguageButton.jsx'
-import { Facebook, Github, Linkedin, Mail, JavaScript } from "lucide-react"
+import { Facebook, Github, Linkedin, Mail } from "lucide-react"
 import { clsx } from 'clsx'
 
 
@@ -19,7 +19,6 @@ export default function Main({theme}) {
         <LanguageButton 
           key={language.name} 
           language={language} 
-          icon={JavaScript}
           handleClick={() => handleClick(language)}
           theme={theme}
         />

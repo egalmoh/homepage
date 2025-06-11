@@ -1,6 +1,6 @@
 import { clsx } from 'clsx'
 
-export default function LanguageButton({language, handleClick, buttStyles, theme, icon}) {
+export default function LanguageButton({language, handleClick, buttStyles, theme}) {
 
   const className = clsx({
     'btn-border': language.isShown,
@@ -14,7 +14,7 @@ export default function LanguageButton({language, handleClick, buttStyles, theme
       <button 
         className={`lang-button ${className}`}
         onClick={handleClick}
-      >{<icon />} {language.name}</button>
+      >{language.name}</button>
       <p className={`text-description ${className}`}> {language.isShown && language.description}</p>
     </div>
   )
