@@ -20,8 +20,8 @@ export default [
     isShown: false
   },
   {
-    name: "Node.js",
-    description: "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    name: "NextJs",
+    description: "A powerful web development framework that simplifies the process of building fast, interactive applications.",
     isShown: false
   },
   {
