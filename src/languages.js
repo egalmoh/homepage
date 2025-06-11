@@ -20,7 +20,7 @@ export default [
     isShown: false
   },
   {
-    name: "NextJs",
+    name: "Next.js",
     description: "A powerful web development framework that simplifies the process of building fast, interactive applications.",
     isShown: false
   },
